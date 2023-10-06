@@ -12,7 +12,7 @@ jobs:
     name: Compile and Push Firmware
     runs-on: ubuntu-latest
     env:
-      BOARD: STM32F103RC_btt_512K
+      BOARD: STM32F103RE_creality
 
     steps:
       - name: Check out repo
