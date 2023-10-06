@@ -32,8 +32,6 @@
  */
 #define CONFIGURATION_ADV_H_VERSION 02010201
 
-#define RET6_12864_LCD
-
 // @section develop
 
 /**
