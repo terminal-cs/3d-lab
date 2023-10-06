@@ -38,7 +38,6 @@
 #define CONFIGURATION_H_VERSION 02010201
 
 #define RET6_12864_LCD
-#define SERIAL_PORT 1
 
 //===========================================================================
 //============================= Getting Started =============================
@@ -103,7 +102,7 @@
  *
  * :[-1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
-#define SERIAL_PORT 0
+#define SERIAL_PORT -1
 
 /**
  * Serial Port Baud Rate
