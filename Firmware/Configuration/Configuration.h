@@ -37,7 +37,7 @@
  */
 #define CONFIGURATION_H_VERSION 02010201
 
-//#define RET6_12864_LCD
+#define RET6_12864_LCD
 
 //===========================================================================
 //============================= Getting Started =============================
@@ -2843,7 +2843,7 @@
 // This is RAMPS-compatible using a single 10-pin connector.
 // (For CR-10 owners who want to replace the Melzi Creality board but retain the display)
 //
-//#define CR10_STOCKDISPLAY
+#define CR10_STOCKDISPLAY
 
 //
 // Ender-2 OEM display, a variant of the MKS_MINI_12864
@@ -3102,8 +3102,6 @@
 // 480x320, 3.5", SPI Stock Display with Rotary Encoder from BIQU B1 SE Series
 //
 //#define BTT_TFT35_SPI_V1_0
-
-#define CR10_STOCKDISPLAY
 
 //
 // Generic TFT with detailed options
