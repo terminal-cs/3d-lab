@@ -37,7 +37,7 @@
  */
 #define CONFIGURATION_H_VERSION 02010201
 
-#define RET6_12864_LCD
+//#define RET6_12864_LCD
 
 //===========================================================================
 //============================= Getting Started =============================
@@ -548,7 +548,7 @@
 #define TEMP_SENSOR_5 0
 #define TEMP_SENSOR_6 0
 #define TEMP_SENSOR_7 0
-#define TEMP_SENSOR_BED 0
+#define TEMP_SENSOR_BED 1
 #define TEMP_SENSOR_PROBE 0
 #define TEMP_SENSOR_CHAMBER 0
 #define TEMP_SENSOR_COOLER 0
@@ -738,7 +738,7 @@
  * the issues involved, don't use bed PID until someone else verifies that your hardware works.
  * @section bed temp
  */
-//#define PIDTEMPBED
+#define PIDTEMPBED
 
 //#define BED_LIMIT_SWITCHING
 
